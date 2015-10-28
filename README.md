@@ -9,11 +9,17 @@ frames (presumably).
 1. `nvm use 0.12.7`
 2. `node index.js`
 
+Outputs lots of FOO|.
+
 #### Does not work on Node 4.1.2
 
 1. `nvm use 4.1.2`
 2. `node index.js`
 
+Shows "New connection" but no FOO|.
+
 But works if you bypass proxy
 
 1. Edit index.js, change flag `useProxy` to `false`
+
+Lots of FOO| again.
