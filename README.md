@@ -18,7 +18,7 @@ Outputs lots of FOO|.
 
 Shows "New connection" but no FOO|.
 
-But works if you bypass proxy
+##### But works if you bypass proxy
 
 1. Edit index.js, change flag `useProxy` to `false`
 
