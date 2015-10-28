@@ -3,7 +3,6 @@ var httpProxy = require('http-proxy');
 
 var useProxy = true;
 
-// Scream server example: "hi" -> "HI!!!"
 var server = ws.createServer(function (conn) {
     console.log("New connection")
     conn.on("text", function (str) {
